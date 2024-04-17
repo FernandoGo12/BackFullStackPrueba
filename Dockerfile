@@ -16,4 +16,4 @@ FROM openjdk:17
 RUN mkdir -p /app/config
 COPY /build/libs/back-prueba-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar","/build/libs/back-prueba-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar","app.jar"]
